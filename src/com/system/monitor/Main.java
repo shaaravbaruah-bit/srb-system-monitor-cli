@@ -15,7 +15,8 @@ public class Main {
             System.out.println("2 CPU Information");
             System.out.println("3 Memory Information");
             System.out.println("4 Network Information");
-            System.out.println("5 Exit");
+            System.out.println("5 Disk Information");
+            System.out.println("6 Exit");
             System.out.print("Enter choice: ");
 
             int choice = sc.nextInt();
@@ -37,6 +38,10 @@ public class Main {
             }
 
             else if(choice == 5) {
+                DiskInfo.show();
+            }
+
+            else if(choice == 6) {
                 System.out.println("Program exited.");
                 break;
             }
