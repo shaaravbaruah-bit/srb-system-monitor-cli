@@ -1,4 +1,2 @@
 *.class
-*.log
-bin/
-out/
+system_report.txt
